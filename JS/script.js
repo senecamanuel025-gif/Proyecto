@@ -8,7 +8,7 @@ function escribir() {
         elemento.textContent += texto.charAt(i);
         i++;
         setTimeout(escribir,100)
-        escribir();
+    
 
     }
 
